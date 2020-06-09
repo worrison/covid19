@@ -1,11 +1,3 @@
-
-<!--<template>
-    <nav>
-            <router-link to="/">Home</router-link> |
-             <router-link to="/about">About</router-link>
-    </nav>
-</template>-->
-
 <template>
     <div>
         <b-navbar type="dark" variant="dark">
@@ -16,10 +8,6 @@
         </b-navbar>
     </div>
 </template>
-
-
-
-
 
 <script>
 export default {
