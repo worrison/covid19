@@ -4,7 +4,7 @@ import apiStatics from  '../services/api'
 const country = 'spain';
 
 async function getStatics(){
-    const api=apiStatics.staticsCountry + country
+    const api=apiStatics + country
     try {
       let  result = await axios.get(api)
   

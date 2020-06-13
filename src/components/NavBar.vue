@@ -13,12 +13,10 @@
 export default {
     data() {
         return {
-            drawer: true,
             items: [
                 { title: 'Home', icon:'fas fa-address-card',to:{name:'Home'} },
                 { title: 'About', icon:'fas fa-address-card',to:{name:'About'} }
-                ],
-            over : false
+                ]
         }
         
     }
