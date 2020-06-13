@@ -1,17 +1,26 @@
 <template>
-    <b-card
-    tag="article"
-    style="max-width: 20rem;"
-    class="mb-2"
-  >
-  {{title}}
-    <b-card-text>
-      {{descripcion}}
-    </b-card-text>
+    <div>
 
-    <b-button href="#" variant="primary">Ver</b-button>
-  </b-card>
+<b-card-group deck>
+    <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+      <b-card-text>
+       {{descripcion}}
+      </b-card-text>
+      <template v-slot:footer>
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </template>
+    </b-card>
+    </b-card-group>
+
+    </div>
 </template>
+
+
+
+
+
+
+
 
 
 <script>

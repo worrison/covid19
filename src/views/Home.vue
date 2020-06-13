@@ -1,5 +1,5 @@
 <template>
-  <div class="home container mt-3" >
+  <div class="home mt-4 container d-flex flex-row justify-content-around flex-wrap align-content-center" >
           <Card  v-for="(item,index) in paises" :key="index" 
             :title="item.Country"
             :descripcion="item.Country"
